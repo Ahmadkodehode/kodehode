@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a</h1>
+      <h1 class="green">random Password</h1>
+      <p>Never use an insecure password again.</p>
+
+      <fieldset class="password-container">
+        <label for="number1">How long do you want your password ?</label>
+        <input
+          type="text"
+          name="Number1"
+          id="number1"
+          max="30"
+          value="15"
+          class="password-length"
+          required
+        />
+        <div class="chk">
+          <label for="numbers">Numbers :</label>
+          <input type="checkbox" name="numbers" id="numbers" />
+          <label>Symbols :</label>
+          <input type="checkbox" name="symbols" id="symbols" />
+        </div>
+
+        <h3 class="password" id="password1">PassWord 1</h3>
+        <div class="btn">
+          <button onclick="generat()">Generate</button>
+          <button onclick="copy()">Copy</button>
+        </div>
+      </fieldset>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

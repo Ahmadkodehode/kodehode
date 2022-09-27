@@ -1,0 +1,98 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: rgb(193, 39, 39);
+  position: fixed;
+  width: 100%;
+
+  z-index: 1;
+}
+.link1:hover {
+  background-color: #666;
+  border: 3px solid;
+}
+
+.color,
+.green,
+.sea {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.color {
+  background-image: url("images/color.jpg");
+  min-height: 100%;
+}
+
+.green {
+  background-image: url("images/green.jpg");
+  min-height: 400px;
+}
+
+.sea {
+  background-image: url("images/sea.jpg");
+  min-height: 400px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.ptext .trans {
+  background-color: transparent;
+}
+.footer {
+  background-color: black;
+  color: rgb(193, 39, 39);
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+#kk:active {
+  height: 500px;
+}
+#kk:visited {
+  height: 500px;
+}

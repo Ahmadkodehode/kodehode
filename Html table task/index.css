@@ -1,0 +1,59 @@
+body {
+  background-color: #ffffff;
+  color: #0b0710;
+  max-width: 800px;
+  text-align: center;
+}
+.task1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6d6d6d;
+  margin: auto auto 30px 46px;
+  padding-bottom: 30px;
+  filter: blur(0.7px);
+  height: 336px;
+  width: 780px;
+}
+h1 {
+  font-size: 25px;
+}
+table {
+  table-layout: fixed;
+  height: 296px;
+  width: 721px;
+}
+th,
+table,
+th,
+td {
+  border: 1px solid #777373;
+  border-collapse: collapse;
+}
+table {
+  border: 4px double #474646;
+}
+
+.lunch {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* chang the background color undr hover*/
+
+th:hover,
+td:hover {
+  background-color: #e3dede;
+  filter: blur(0);
+}
+
+th,
+td {
+  font-size: 13px;
+}
+/* chang the curser undr hover*/
+.lunch:hover {
+  cursor: pointer;
+}
