@@ -5,28 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body class="my-page">
     <section class="form1">
       <nav class="nav">
-        <a href="" class="main">Meny</a>
+        <button id="menu">Meny</button>
         <a href="" class="main">Tilbør</a>
         <a href="" class="main">Drink</a>
       </nav>
-      <form action="" id="meny" class="choose">
-        <fieldset>Meny</fieldset>
+      <form action="" id="meny" class="choose set">
+        <fieldset>
+          <legend>Meny</legend>
+          <input type="radio" name="burger" id="burger" />
+          <label for="burger"> Burger</label>
+          <input type="radio" name="vegan" id="vegan" />
+          <label for="vegan"> Vegan</label>
+          <input type="radio" name="meal" id="meal" />
+          <label for="meal"> Days Meal</label>
+        </fieldset>
+        <label for="size">Choose Size</label>
+        <select id="size" name="size">
+          <option value="Jumbo">Jumbo</option>
+          <option value="Big">Big</option>
+          <option value="medium" selected>medium</option>
+          <option value="small">Small</option>
+        </select>
       </form>
-      <form action="" id="tilbhor" class="choose">
-        <fieldset>Tilbør</fieldset>
+
+      <form action="" id="tilbhor" class="choose set">
+        <fieldset>
+          <legend>Custmize</legend>
+          <input type="checkbox" name="" id="" />
+          <label for="">onion</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Frits</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Ketchup</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Fruits</label>
+          <label for="notes">Notes</label>
+          <textarea name="notes" id="notes" rows="6" cols="30">
+            Do you have allergy
+            Write to us here
+          </textarea>
+        </fieldset>
       </form>
-      <form action="" id="drink" class="choose">
-        <a href="" class="main"></a>
-        <fieldset>Drink</fieldset>
+
+      <form action="" id="drink" class="choose set">
+        <fieldset>
+          <legend>Choose Your Drink</legend>
+          <input type="checkbox" name="" id="" />
+          <label for="">Coca-cola</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Apple Juice</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Orange Juice</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Milk</label>
+          <input type="checkbox" name="" id="" />
+          <label for="">Water</label>
+        </fieldset>
       </form>
-      <form action="" class="choose">
-        <fieldset>Basket</fieldset>
+
+      <form action="" class="choose set" id="basket ">
+        <fieldset>
+          <legend>Basket</legend>
+          <label for="take" id="take"
+            >When you will take it <br />
+            after:</label
+          >
+          <input type="range" min="1" max="20" step="1" name="total" />
+          <fieldset>
+            <legend>Where do you want to eat?</legend>
+            <input type="radio" name="here" id="here" />
+            <label for="here">Eat here</label>
+            <input type="radio" name="away" id="away" />
+            <label for="">Take away</label>
+          </fieldset>
+          <label for="pay" id="pay">How do you want to pay?</label>
+          <input type="radio" name="vipps" id="vipps" />
+          <label>Vipps</label>
+
+          <label for="time">When Will get it</label
+          ><input type="time" name="time" id="time" />
+        </fieldset>
       </form>
       <button class="sub">NEXT</button>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>

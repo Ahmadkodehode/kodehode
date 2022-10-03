@@ -1,0 +1,34 @@
+body {
+  background-color: #eee2df;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form1 {
+  background-color: #c89f9c;
+  display: flex;
+  width: 300px;
+  height: 400px;
+  flex-direction: column;
+
+  align-items: center;
+  padding-top: 0%;
+}
+nav {
+  display: flex;
+  position: sticky;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #eed7c5;
+  padding: 15px auto;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+.set {
+  display: flex;
+  flex-direction: column;
+  background-color: #b36a5e;
+  width: 270px;
+}
