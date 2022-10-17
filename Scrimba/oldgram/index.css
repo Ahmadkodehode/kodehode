@@ -65,3 +65,7 @@ p {
 .comment {
   font-weight: 400;
 }
+.icon:hover,
+.icon:focus {
+  opacity: 0.5;
+}
