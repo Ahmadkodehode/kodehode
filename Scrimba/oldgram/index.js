@@ -29,10 +29,16 @@ const posts = [
   },
 ];
 let nLikes = document.getElementById("likes");
-
-document.getElementById("addlike").addEventListener("click", function () {
+function likeMe() {
   let myLikes = parseInt(nLikes.innerText, 10);
   let m = myLikes + 1;
   nLikes.innerText = m;
   console.log(myLikes);
+}
+
+document.getElementById("addlike").addEventListener("click", function () {
+  likeMe();
+});
+document.getElementById("main-img").addEventListener("dblclick", function () {
+  likeMe();
 });

@@ -6,13 +6,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f5f5f5;
+  background: #ededed;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  width: 375px;
+  width: 355px;
   margin-top: 0;
   background-color: #ffffff;
   border-bottom: 1px solid #000000;
@@ -29,6 +29,8 @@ nav {
 }
 section {
   width: 375px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
 }
 img {
   width: 375px;
@@ -41,13 +43,15 @@ img {
 .icon {
   width: 23px;
   height: 22;
-  margin-top: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 h4 {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 10px;
+
+  margin: 0;
 }
 p {
   margin-top: 8px;
@@ -56,7 +60,8 @@ p {
   font-weight: 700;
   font-size: 13px;
   line-height: 16px;
+  padding-left: 10px;
 }
-p span {
+.comment {
   font-weight: 400;
 }
