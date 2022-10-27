@@ -21,6 +21,7 @@ pushBtn.addEventListener("click", function () {
     myEmojis.push(emojiInput.value);
     emojiInput.value = "";
     renderEmojis();
+    console.log(emojiInput.value);
   }
 });
 
